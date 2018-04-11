@@ -14,10 +14,10 @@ javaTools = []
  * make sure you have these java versions
  * in your download folder
  */
-//javaTools=[['name':'jdk8', 'url':'file:/var/jenkins_home/downloads/jdk-8u131-linux-x64.tar.gz', 'subdir':'jdk1.8.0_131']
-//        //uncomment to have java 7 as well
+javaTools=[['name':'jdk8', 'url':'file:/var/jenkins_home/downloads/jdk-8u131-linux-x64.tar.gz', 'subdir':'jdk1.8.0_131']
+//uncomment to have java 7 as well
 //           ,['name':'jdk7', 'url':'file:/var/jenkins_home/downloads/jdk-7u76-linux-x64.tar.gz', 'subdir':'jdk1.7.0_76']
-//]
+]
 
 javaTools.each { javaTool ->
 
